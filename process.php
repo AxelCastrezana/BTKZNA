@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   // Example: Sending an email using the mail() function
   $to = "garyspecial2013@gmail.com";
-  $subject = "Asunto:" + $asunto; 
+  $subject = "New Client"; 
   $body = "Name: $name\nEmail: $email\nMessage: $message";
   $headers = "From: $email";
 
